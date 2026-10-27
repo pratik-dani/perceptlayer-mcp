@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.perceptlayer/web-data",
+  "title": "Perceptlayer",
+  "description": "Live web data for AI agents: structured JSON from 248 websites through one API key.",
+  "version": "1.1.0",
+  "websiteUrl": "https://docs.perceptlayer.com/ai-agents",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.perceptlayer.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer sk_live_... Needed for call_endpoint; search_endpoints and get_endpoint work without it.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "inputs": [
+    { "type": "promptString", "id": "perceptlayer-key", "description": "Perceptlayer API key", "password": true }
+  ],
+  "servers": {
+    "perceptlayer": {
+      "type": "http",
+      "url": "https://api.perceptlayer.com/mcp",
+      "headers": { "Authorization": "Bearer ${input:perceptlayer-key}" }
+    }
+  }
+}
