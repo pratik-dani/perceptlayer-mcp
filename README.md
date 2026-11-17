@@ -2,9 +2,10 @@
 
 # Perceptlayer MCP server
 
-Live web data for AI agents. One API key, structured JSON from 248 websites
-(1,659 endpoints): Google Maps, Zillow, Indeed, Airbnb, Booking.com, Google Search
-and more.
+Live web data for AI agents. Google Search, Google Maps, Amazon, Zillow, Airbnb,
+Booking.com, Indeed, Walmart, eBay, Tripadvisor, Trustpilot, Glassdoor, Google Flights
+and 412 more websites as structured JSON, through one API key and three tools
+(425 websites, 2,582 endpoints).
 
 This is a hosted (remote) MCP server. There is nothing to install: point your client
 at the URL.
@@ -14,7 +15,7 @@ https://api.perceptlayer.com/mcp
 ```
 
 Transport: Streamable HTTP. Auth: `Authorization: Bearer sk_live_...`
-([get a free key](https://perceptlayer.com/signup), 1,000 credits a month, no card).
+([get a free key](https://perceptlayer.com/signup), 100 credits on signup, no card).
 
 ## Tools
 
@@ -24,7 +25,7 @@ Transport: Streamable HTTP. Auth: `Authorization: Bearer sk_live_...`
 | `get_endpoint` | Lists one endpoint's parameters, with an example and its credit cost. | Free, no key |
 | `call_endpoint` | Runs an endpoint and returns its JSON. | The endpoint's credits |
 
-The agent searches the catalogue instead of loading 1,659 tool definitions into its
+The agent searches the catalogue instead of loading 2,582 tool definitions into its
 context.
 
 ## Connect a client
@@ -51,16 +52,16 @@ Browser-based MCP clients aren't supported yet.
 
 | Area | Sources |
 | --- | --- |
-| Real estate | 54 |
+| Real estate | 159 |
+| Marketplaces | 69 |
+| Social (additional terms) | 40 |
 | Cars | 39 |
-| Social (additional terms) | 39 |
-| Marketplaces | 27 |
-| Travel | 26 |
-| Search | 26 |
-| Jobs | 13 |
-| Reviews | 9 |
-| Apps | 8 |
-| Web and SEO | 7 |
+| Search | 30 |
+| Travel | 28 |
+| Jobs | 20 |
+| Reviews | 15 |
+| Apps | 13 |
+| Web and SEO | 12 |
 
 Full catalogue: [perceptlayer.com/apis](https://perceptlayer.com/apis).
 
@@ -68,7 +69,7 @@ Full catalogue: [perceptlayer.com/apis](https://perceptlayer.com/apis).
 
 - 1 credit per successful call. Failed calls (invalid parameters, no data, rate limits,
   source outages) cost nothing.
-- Free: 1,000 credits a month, 1 request a second.
+- Free: 100 credits on signup, 1 request a second.
 - Prepaid packs from $15 for 10,000 credits, down to $0.60 per 1,000 calls. No
   subscription; credits last 12 months.
 
