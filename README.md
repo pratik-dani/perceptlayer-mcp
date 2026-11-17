@@ -14,7 +14,9 @@ at the URL.
 https://api.perceptlayer.com/mcp
 ```
 
-Transport: Streamable HTTP. Auth: `Authorization: Bearer sk_live_...`
+Transport: Streamable HTTP. Searching the catalogue needs no account. To call an endpoint,
+sign in when your client offers it (OAuth, for ChatGPT, Claude and other clients that support
+it) or send `Authorization: Bearer sk_live_...`
 ([get a free key](https://perceptlayer.com/signup), 100 credits on signup, no card).
 
 ## Tools
@@ -47,6 +49,12 @@ which bridges through `mcp-remote`.
 
 Any other client that supports remote MCP servers needs the same URL and header.
 Browser-based MCP clients aren't supported yet.
+
+## Examples
+
+Runnable code in [`examples/`](examples/): the three tool calls with the MCP Python and
+TypeScript SDKs, and an agent built on the Claude Agent SDK that answers a question from
+live data.
 
 ## What you can get
 
