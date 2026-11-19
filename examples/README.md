@@ -24,4 +24,4 @@ python claude-agent-sdk/agent.py "Find three well-rated coffee shops in Austin, 
 A successful call spends the credits the endpoint lists, usually 1. A failed call costs nothing.
 
 Clients with a person at the keyboard (ChatGPT, Claude, Claude Code) don't need a key:
-add `https://api.perceptlayer.com/mcp` and sign in when the client asks.
+add `https://perceptlayer.com/mcp` and sign in when the client asks.

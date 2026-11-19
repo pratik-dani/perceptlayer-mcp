@@ -16,7 +16,7 @@ import httpx2
 from mcp import ClientSession
 from mcp.client.streamable_http import streamable_http_client
 
-URL = "https://api.perceptlayer.com/mcp"
+URL = "https://perceptlayer.com/mcp"
 
 
 def text(result) -> str:

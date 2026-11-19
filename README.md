@@ -5,13 +5,13 @@
 Live web data for AI agents. Google Search, Google Maps, Amazon, Zillow, Airbnb,
 Booking.com, Indeed, Walmart, eBay, Tripadvisor, Trustpilot, Glassdoor, Google Flights
 and 412 more websites as structured JSON, through one API key and three tools
-(425 websites, 2,582 endpoints).
+(480 websites, 2,782 endpoints).
 
 This is a hosted (remote) MCP server. There is nothing to install: point your client
 at the URL.
 
 ```
-https://api.perceptlayer.com/mcp
+https://perceptlayer.com/mcp
 ```
 
 Transport: Streamable HTTP. Searching the catalogue needs no account. To call an endpoint,
@@ -35,7 +35,7 @@ context.
 **Claude Code**
 
 ```bash
-claude mcp add --transport http perceptlayer https://api.perceptlayer.com/mcp \
+claude mcp add --transport http perceptlayer https://perceptlayer.com/mcp \
   --header "Authorization: Bearer $PERCEPTLAYER_API_KEY"
 ```
 

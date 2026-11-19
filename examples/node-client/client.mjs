@@ -9,7 +9,7 @@
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StreamableHTTPClientTransport } from "@modelcontextprotocol/sdk/client/streamableHttp.js";
 
-const URL_ = "https://api.perceptlayer.com/mcp";
+const URL_ = "https://perceptlayer.com/mcp";
 const key = process.env.PERCEPTLAYER_API_KEY;
 const text = (result) => result.content.filter((b) => b.type === "text").map((b) => b.text).join("\n");
 

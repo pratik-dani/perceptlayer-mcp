@@ -5,7 +5,7 @@
   "servers": {
     "perceptlayer": {
       "type": "http",
-      "url": "https://api.perceptlayer.com/mcp",
+      "url": "https://perceptlayer.com/mcp",
       "headers": { "Authorization": "Bearer ${input:perceptlayer-key}" }
     }
   }

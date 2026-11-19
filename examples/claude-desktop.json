@@ -2,7 +2,7 @@
   "mcpServers": {
     "perceptlayer": {
       "command": "npx",
-      "args": ["-y", "mcp-remote", "https://api.perceptlayer.com/mcp", "--header", "Authorization:${AUTH_HEADER}"],
+      "args": ["-y", "mcp-remote", "https://perceptlayer.com/mcp", "--header", "Authorization:${AUTH_HEADER}"],
       "env": { "AUTH_HEADER": "Bearer sk_live_..." }
     }
   }

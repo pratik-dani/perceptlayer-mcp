@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "perceptlayer": {
-      "url": "https://api.perceptlayer.com/mcp",
+      "url": "https://perceptlayer.com/mcp",
       "headers": { "Authorization": "Bearer sk_live_..." }
     }
   }

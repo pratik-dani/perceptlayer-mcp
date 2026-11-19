@@ -17,7 +17,7 @@ import sys
 
 from claude_agent_sdk import AssistantMessage, ClaudeAgentOptions, ResultMessage, SystemMessage, query
 
-URL = "https://api.perceptlayer.com/mcp"
+URL = "https://perceptlayer.com/mcp"
 QUESTION = "Find three well-rated coffee shops in Austin, with rating and address."
 
 
